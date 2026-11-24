@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://peve224.github.io/FORMATION-EVIEWS/sitemap.xml
