@@ -1,0 +1,5 @@
+EVIEWS PRO ACADEMY
+Version: 4.0-phase4
+Publication: GitHub Pages statique
+Backend LMS: disponible localement; pas hébergé sur GitHub Pages
+Paiements: rapprochement manuel uniquement
