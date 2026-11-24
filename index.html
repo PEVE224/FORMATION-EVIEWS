@@ -48,7 +48,7 @@
 <a class="brand" href="#"><span class="brand-mark">E</span><span><strong>EVIEWS</strong><small>PRO ACADEMY</small></span></a>
 <nav aria-label="Navigation principale"><a href="#programme">Programme</a><a href="#tarifs">Tarifs</a><a href="#faq">FAQ</a></nav>
 <div class="header-actions"><a class="button button-outline" href="https://wa.me/224611016900" target="_blank" rel="noopener">Assistance</a><a class="button button-primary" href="#inscription">M'inscrire</a></div>
-<button class="mobile-menu-button" id="mobile-menu-button" type="button" aria-expanded="false" aria-controls="mobile-navigation" aria-label="Ouvrir le menu">â˜°</button>
+<button class="mobile-menu-button" id="mobile-menu-button" type="button" aria-expanded="false" aria-controls="mobile-navigation" aria-label="Ouvrir le menu">&#9776;</button>
 </header>
 <nav class="mobile-nav" id="mobile-navigation" aria-label="Navigation mobile"><a href="#programme">Programme</a><a href="#tarifs">Tarifs</a><a href="#inscription">M'inscrire</a><a href="#faq">FAQ</a><a href="https://wa.me/224611016900" target="_blank" rel="noopener">Assistance WhatsApp</a></nav>
 
@@ -110,7 +110,7 @@ function setMobileMenu(open) {
   mobileNavigation.classList.toggle("open", open);
   mobileMenuButton.setAttribute("aria-expanded", open ? "true" : "false");
   mobileMenuButton.setAttribute("aria-label", open ? "Fermer le menu" : "Ouvrir le menu");
-  mobileMenuButton.textContent = open ? "Ã—" : "â˜°";
+  mobileMenuButton.innerHTML = open ? "&times;" : "&#9776;";
 }
 mobileMenuButton.addEventListener("click", function() {
   setMobileMenu(mobileMenuButton.getAttribute("aria-expanded") !== "true");
